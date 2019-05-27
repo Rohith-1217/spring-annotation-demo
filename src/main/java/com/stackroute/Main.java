@@ -30,5 +30,6 @@ public class Main {
 
         System.out.println("Autowiring Done = " + "Id : " + movie3.getId() + " Movie Name=" + movie3.getMovieName() + " actor was " + movie3.getActor());
 
+        ctx.close();
     }
 }

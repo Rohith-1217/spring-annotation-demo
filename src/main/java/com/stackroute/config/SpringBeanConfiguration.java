@@ -3,6 +3,7 @@ package com.stackroute.config;
 import com.stackroute.awareinterface.ApplicationContextAwareDemo;
 import com.stackroute.awareinterface.BeanFactoryAwareDemo;
 import com.stackroute.awareinterface.BeanNameAwareDemo;
+import com.stackroute.demo.BeanLifecycleDemoBean;
 import com.stackroute.domain.Actor;
 import com.stackroute.domain.Movie;
 import org.springframework.context.annotation.Bean;
@@ -32,7 +33,7 @@ public class SpringBeanConfiguration {
     public Movie getMovie1(){
         return new Movie(2,"rabhasa",getActor());
     }
-
+/*
     @Bean(name="applicationContextAwareDemo")
     public ApplicationContextAwareDemo getApplicationContextAwareDemo(){
         return new ApplicationContextAwareDemo();
@@ -46,5 +47,10 @@ public class SpringBeanConfiguration {
     @Bean(name="beanNameAwareDemo")
     public BeanNameAwareDemo getBeanNameAwareDemo(){
         return new BeanNameAwareDemo();
+    } */
+
+    @Bean(name={"beanLifecycleDemoBean"},initMethod = "customInit",destroyMethod = "customDestroy")
+    public BeanLifecycleDemoBean getBeanLifecycleDemoBean(){
+        return new BeanLifecycleDemoBean();
     }
 }
