@@ -6,7 +6,7 @@ public class Movie {
 
     private int id;
     private String movieName;
-    @Autowired
+  //  @Autowired
     private Actor actor;
 
     public int getId() {
@@ -42,7 +42,7 @@ public class Movie {
                 ", actor=" + actor +
                 '}';
     }
-    @Autowired
+   // @Autowired
     public void setActor(Actor actor) {
         this.actor = actor;
     }
