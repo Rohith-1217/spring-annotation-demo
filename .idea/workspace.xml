@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56fa0fce-1501-4400-8b16-b3123d2b8497" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="389">
+              <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -65,8 +64,18 @@
                 <element signature="e#513#514#0" expanded="true" />
                 <element signature="e#691#692#0" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/demo/BeanPostProcessorDemoBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +158,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="autowire-xml" />
+        <entry key="$PROJECT_DIR$" value="aware-interface" />
       </map>
     </option>
   </component>
@@ -163,8 +172,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanFactoryAwareDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/demo/BeanLifecycleDemoBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/demo/BeanPostProcessorDemoBean.java" />
       </list>
     </option>
   </component>
@@ -214,6 +224,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558955369493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Task 5 annotations completed&quot;">
+      <created>1558959713513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558959713513</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,7 +335,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19031607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19031607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3297587" />
@@ -317,7 +343,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,7 +390,8 @@
     <MESSAGE value="&quot;Task 2 annotations completed&quot;" />
     <MESSAGE value="&quot;Task 3 annotations completed&quot;" />
     <MESSAGE value="&quot;Task 4 annotations completed&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Task 4 annotations completed&quot;" />
+    <MESSAGE value="&quot;Task 5 annotations completed&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Task 5 annotations completed&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/App.java">
@@ -494,10 +521,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="389">
+          <caret line="58" column="54" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
@@ -506,16 +543,14 @@
             <element signature="e#513#514#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/demo/BeanPostProcessorDemoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
