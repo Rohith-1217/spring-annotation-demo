@@ -19,5 +19,13 @@ public class Main
 
         Movie movie1 = (Movie) ctx.getBean("movie1");
         System.out.println(movie1);
+
+        Movie movie2 = (Movie) ctx.getBean("movie");
+        System.out.println(movie2);
+
+        System.out.println(movie==movie2);
+
+
+
     }
 }
